@@ -4,3 +4,6 @@
 [submodule "buildroot"]
 	path = buildroot
 	url = https://gitlab.com/buildroot.org/buildroot/
+[submodule "assignments-3-and-later-cshwk2020"]
+	path = assignments-3-and-later-cshwk2020
+	url = git@github.com:cu-ecen-aeld/assignments-3-and-later-cshwk2020.git
