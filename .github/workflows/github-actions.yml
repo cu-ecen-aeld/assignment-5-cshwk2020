@@ -19,7 +19,7 @@ jobs:
                 ssh-private-key: ${{ secrets.hw5_2_key }}
           - name: Run full test
             env:
-              GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+              GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
             run: ./full-test.sh
           - name: Cleanup
             if: always()
